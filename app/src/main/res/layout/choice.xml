@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:id="@+id/lay"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="5dp" >
+
+	<com.mycompany.Wiezen.TextViewPlayer
+		android:id="@+id/choice"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"/>
+
+	<com.mycompany.Wiezen.TextViewPlayer
+		android:id="@+id/choiceHelp"
+
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+<!--xmlns:custom="http://schemas.android.com/apk/res/com.mycompany.Wiezen"-->
+
+<!--custom:showText="true" />-->
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:custom="http://schemas.android.com/apk/res/com.example.customviews">
+<com.example.customviews.charting.PieChart
+custom:showText="true"
+custom:labelPosition="left" />
+</LinearLayout>-->
+
+<!--android:textSize="22dp"-->
+<!--android:textColor="?android:textColorPrimary"-->
+<!--android:paddingLeft="5dp"-->

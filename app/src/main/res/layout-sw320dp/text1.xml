@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:orientation="horizontal"
+	android:gravity="center"
+	android:id="@+id/text1">
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="Schudden kaarten......"
+		android:id="@+id/textView1"
+		android:gravity="center"
+		android:textSize="30sp"/>
+
+</RelativeLayout>
+
